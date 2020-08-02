@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #33c4b0;
+}
+.clearFix {
+  clear: "both";
+  content: "";
+  display: table;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}

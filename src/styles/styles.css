@@ -1,0 +1,130 @@
+.Main {
+  max-width: 1002px;
+  margin: auto;
+  background-color: #1c273a;
+  color: white;
+}
+
+.heading {
+  position: relative;
+  background-color: #111825;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.heading__text {
+  display: inline-block;
+  color: #33c4b0;
+}
+.heading__nav {
+  position: absolute;
+  float: right;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+.heading__arrow {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 15px;
+}
+.heading__arrow:hover {
+  color: #33c4b0;
+}
+.heading__number {
+  font-size: 24px;
+  font-weight: bold;
+}
+.loading {
+  background-color: #1c273a;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.loading__image {
+  position: "relative";
+  width: 100px;
+  height: 100px;
+}
+
+.headline {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #33c4b0;
+}
+.headline__title {
+  display: block;
+  margin: 0px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #33c4b0;
+  text-decoration: none;
+}
+.headline__title:hover {
+  color: #00ffdd;
+}
+.headline__user {
+  margin: 0px 10px;
+}
+.headline__comment {
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+  border: 2px solid #33c4b0;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #33c4b0;
+}
+.headline__comment:hover {
+  color: #00ffdd;
+  border: 2px solid #00ffdd;
+}
+.headline__score {
+  margin: 0px 10px;
+}
+.story {
+  padding: 10px;
+}
+.story__title {
+  display: block;
+  width: 100%;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+.story__title:hover {
+  color: #00ffdd;
+}
+.story__user {
+  width: 100%;
+  text-align: right;
+}
+.comment {
+  margin: 10px 0px 25px 10px;
+  padding: 0px 5px 10px 10px;
+  border-bottom: 1px solid #33c4b0;
+  border-left: 2px solid #33c4b0;
+}
+.comment__header {
+  margin-bottom: 10px;
+}
+.comment__user {
+  color: #33c4b0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.comment__visibility {
+  cursor: pointer;
+}
+.comment__visibility:hover {
+  color: #33c4b0;
+}
